@@ -85,7 +85,7 @@ public class TimeUnitsBetween {
 		}
 
 		if (from.isAfter(to)) {
-			return null;
+			return new TimeUnits(0, 0, 0);
 		}
 		
 		long minutes = 0;
